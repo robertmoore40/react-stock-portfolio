@@ -7,3 +7,9 @@ class Stock extends React.Component {
         this.state = {
             stockChartXValues: [],
       stockChartYValues: []
+    }
+}
+
+componentDidMount() {
+    this.fetchStock();
+  }
