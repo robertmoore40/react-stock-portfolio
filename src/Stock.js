@@ -3,3 +3,5 @@ import Plot from 'react-plotly.js';
 
 class Stock extends React.Component {
     constructor(props) {
+        super(props);
+        this.state = {
