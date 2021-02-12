@@ -55,3 +55,6 @@ componentDidMount() {
                 x: this.state.stockChartXValues,
                 y: this.state.stockChartYValues,
                 type: 'scatter',
+                mode: 'lines+markers',
+                marker: {color: 'red'},
+              }
