@@ -65,3 +65,6 @@ componentDidMount() {
            )
         }
       }
+
+      export default Stock;
+© 2021 GitHub, Inc.
