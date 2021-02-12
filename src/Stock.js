@@ -47,3 +47,8 @@ componentDidMount() {
           render() {
             return (
               <div>
+
+<h1>Stock Market</h1>
+        <Plot
+          data={[
+            {
