@@ -17,3 +17,5 @@ componentDidMount() {
   fetchStock() {
     const pointerToThis = this;
     console.log(pointerToThis);
+    const API_KEY = 'HGJWFG4N8AQ66ICD';
+    let StockSymbol = 'FB';
