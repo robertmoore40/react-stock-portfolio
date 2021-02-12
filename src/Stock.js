@@ -37,3 +37,6 @@ componentDidMount() {
                     stockChartXValuesFunction.push(key);
                     stockChartYValuesFunction.push(data['Time Series (Daily)'][key]['1. open']);
                   }
+                  pointerToThis.setState({
+                    stockChartXValues: stockChartXValuesFunction,
+                    stockChartYValues: stockChartYValuesFunction
