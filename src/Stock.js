@@ -25,3 +25,5 @@ componentDidMount() {
 
     fetch(API_Call)
     .then(
+        function(response) {
+            return response.json();
