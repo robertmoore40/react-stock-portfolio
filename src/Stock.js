@@ -27,3 +27,6 @@ componentDidMount() {
     .then(
         function(response) {
             return response.json();
+        }
+        )
+        .then(
