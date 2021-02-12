@@ -52,3 +52,6 @@ componentDidMount() {
         <Plot
           data={[
             {
+                x: this.state.stockChartXValues,
+                y: this.state.stockChartYValues,
+                type: 'scatter',
