@@ -32,3 +32,8 @@ componentDidMount() {
         .then(
             function(data) {
                 console.log(data);
+
+                for (var key in data['Time Series (Daily)']) {
+                    stockChartXValuesFunction.push(key);
+                    stockChartYValuesFunction.push(data['Time Series (Daily)'][key]['1. open']);
+                  }
