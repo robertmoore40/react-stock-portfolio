@@ -39,4 +39,7 @@ componentDidMount() {
                   }
                   pointerToThis.setState({
                     stockChartXValues: stockChartXValuesFunction,
-                    stockChartYValues: stockChartYValuesFunction
+                    stockChartYValues: stockChartYValuesFunction  });
+                }
+              )
+          }
