@@ -62,3 +62,6 @@ componentDidMount() {
             layout={{width: 720, height: 440, title: 'A Fancy Plot'}}
           />
         </div>
+           )
+        }
+      }
