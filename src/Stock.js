@@ -30,3 +30,5 @@ componentDidMount() {
         }
         )
         .then(
+            function(data) {
+                console.log(data);
