@@ -51,3 +51,7 @@ const isLocalhost = Boolean(
                 'worker. To learn more, visit https://bit.ly/CRA-PWA'
                 );
             });
+
+        } else {
+            // Is not localhost. Just register service worker
+            registerValidSW(swUrl, config);
