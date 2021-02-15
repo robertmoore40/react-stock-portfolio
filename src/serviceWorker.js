@@ -21,3 +21,5 @@ const isLocalhost = Boolean(
       )
   );
   
+  export function register(config) {
+    if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
