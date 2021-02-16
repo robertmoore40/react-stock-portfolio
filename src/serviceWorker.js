@@ -125,3 +125,4 @@ function checkValidServiceWorker(swUrl, config) {
             window.location.reload();
           });
         });
+      } else {
