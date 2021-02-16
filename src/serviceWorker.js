@@ -109,3 +109,5 @@ function checkValidServiceWorker(swUrl, config) {
 
   fetch(swUrl)
   .then(response => {
+
+     // Ensure service worker exists, and that we really are getting a JS file.
