@@ -96,3 +96,6 @@ function registerValidSW(swUrl, config) {
               }
             }
           }
+        };
+      };
+    })
