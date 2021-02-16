@@ -114,3 +114,6 @@ function checkValidServiceWorker(swUrl, config) {
 
      const contentType = response.headers.get('content-type');
      if (
+      response.status === 404 ||
+      (contentType != null && contentType.indexOf('javascript') === -1)
+    ) {
