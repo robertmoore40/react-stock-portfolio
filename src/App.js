@@ -7,3 +7,6 @@ function App() {
     <div className="App">
     <Stock></Stock>
   </div>
+
+);
+}
